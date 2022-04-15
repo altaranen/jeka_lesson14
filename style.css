@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    padding: 0px; 
+    margin: 0px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    max-width: 1440px;
+}
+.promise {
+    padding: 1% 15%;
+    background: #F5F5F5;
+}
+.promise__pretitle {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #5D62B5;
+    margin-bottom: 33px;
+}
+
+.promise__pretitle::before {
+    content: "";
+    display: inline-block;
+    background: url(img/OverlineMarkblue.png) 0px 1px no-repeat;
+    height: 20px; 
+    width: 20px;
+    margin: 0 16px 0 0;
+}
+
+.promise__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 66px;
+}
+
+.promise__items {
+    display: flex;
+}
+
+.promise__item {
+    padding-right: 24px;
+}
+
+.promise__item:last-child {
+    padding-right: 0;
+}
+
+.card {
+    min-width: 20%;
+    margin-bottom: 121px;
+    padding-right: 24px;
+}
+
+.card__picture {
+    position: absolute;
+}
+
+.card__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 26px;
+    color: #F2726F;
+    padding-left: 86px;
+    margin-bottom: 19px;
+}
+
+.card__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+    padding-left: 86px;
+}
+
+.impact {
+    min-height: 600px;
+    padding: 0 15%;
+    background: #29C3BE;
+    position: relative;
+}
+.impact__pretitle {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    padding-top: 10%;
+}
+.impact__pretitle::before {
+    content: "";
+    display: inline-block;
+    background: url(img/OverlineMarkwhite.png) 0px 1px no-repeat;
+    height: 20px; 
+    width: 20px;
+    margin: 0 16px 0 0;
+}
+
+.impact__title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 76px;
+    max-width: 42%;
+   
+}
+
+.impact__picture__block-dog {
+    position: absolute;
+    left: 49%;
+    border-radius: 40px;
+    top: -80px;
+    z-index: 2;
+}
+
+.impact__picture__blob-dog {
+    position: absolute;
+    left: 44%;
+  
+}
+.impact__items {
+    display: flex;
+    margin-bottom: 35%;
+    justify-content: space-between;
+    margin-bottom: 20%;
+}
+
+.card__item {
+    max-width: 237px;
+    padding-right: 24px;
+    
+}
+.card__item__picture {
+    position: absolute;
+}
+
+.card__item__numers {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    padding-left: 87px;
+    margin-bottom: 8px;
+}
+.card__item__type {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #5D62B5;
+    padding-left: 87px;
+}
+img.impact__picture__blob-dog {
+    width: 50%;
+}
